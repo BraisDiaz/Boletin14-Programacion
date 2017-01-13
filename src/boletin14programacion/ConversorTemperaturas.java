@@ -7,11 +7,11 @@ package boletin14programacion;
  */
 public class ConversorTemperaturas {
     
-    private final int temperatura = 80;
+    private final int TEMPERATURA = 80;
 
     public float centigradosAFharenheit (float tempC)throws TemperaturaErradaExcepcion{
     
-        if (tempC<temperatura){
+        if (tempC<TEMPERATURA){
             
           throw new TemperaturaErradaExcepcion();
         }

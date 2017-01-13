@@ -11,4 +11,9 @@ public class TemperaturaErradaExcepcion extends Exception {
         
         super(" A temperatura non pode exceder de 80ºC ");
     }
+    
+    public TemperaturaErradaExcepcion(String s){
+        super(s);
+        
+    }
 }
